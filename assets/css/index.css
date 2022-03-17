@@ -1,6 +1,61 @@
+html,
+body {
+  margin: 0;
+}
+
+.h1 {
+  position: relative;
+  color: #1e8d9b;
+  text-transform: uppercase;
+  border-top: 6px solid #1e8d9b;
+  border-right: 6px solid #1e8d9b;
+}
+
+a {
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+.btn {
+  padding: 0.2rem 0.4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.btn-principal {
+  background: #1e8d9b;
+  color: #fdfdfd;
+}
+
 /* ==========================================================================
    Header:
    ========================================================================== */
+header .header-info {
+  background: #1e8d9b;
+  height: 50px;
+}
+header .header-info .social-media i {
+  background: #fdfdfd;
+  color: #1e8d9b;
+  border-radius: 50%;
+  padding: 4px;
+}
+header .home-background {
+  position: relative;
+  background: url("../../assets/img/unsplash_i14h2xyPr18.png") no-repeat center/cover;
+  height: 662px;
+}
+header .home-background .home-background-title {
+  position: absolute;
+  top: 250px;
+  text-transform: uppercase;
+  color: #fdfdfd;
+  font-size: 6rem;
+  width: 100%;
+}
+
 /* ==========================================================================
    Pages:
    ========================================================================== */

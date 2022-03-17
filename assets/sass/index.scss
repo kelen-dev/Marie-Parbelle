@@ -1,3 +1,35 @@
+@import "variables";
+
+html,
+body {
+  margin: 0;
+}
+
+.h1 {
+  position: relative;
+  color: $primary;
+  text-transform: uppercase;
+  border-top: 6px solid $primary;
+  border-right: 6px solid $primary;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary;
+}
+
+.btn {
+  padding: 0.2rem 0.4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.btn-principal {
+  background: $primary;
+  color: $secondary;
+}
+
 /* ==========================================================================
    Header:
    ========================================================================== */

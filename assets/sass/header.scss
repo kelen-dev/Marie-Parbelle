@@ -1,0 +1,29 @@
+header {
+  .header-info {
+    background: $primary;
+    height: 50px;
+
+    .social-media {
+      i {
+        background: $secondary;
+        color: $primary;
+        border-radius: 50%;
+        padding: 4px;
+      }
+    }
+  }
+  .home-background {
+    position: relative;
+    background: url("../../assets/img/unsplash_i14h2xyPr18.png") no-repeat center / cover;
+    height: 662px;
+
+    .home-background-title {
+      position: absolute;
+      top: 250px;
+      text-transform: uppercase;
+      color: $secondary;
+      font-size: 6rem;
+      width: 100%;
+    }
+  }
+}
